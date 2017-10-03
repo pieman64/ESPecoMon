@@ -16,9 +16,13 @@ NodeMCU: https://www.aliexpress.com/item/1pcs-Wireless-module-NodeMcu-Lua-WIFI-I
 
 Lastly, select a 5A, 20A or 30A ACS712 current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rates modules if you are monitoring low current devices. https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html
 
+Flash your ESP8266 with ESPecoMon.ino
+
+Use the QR code / url to load the project on to your Smartphone and away you go.
+
 TODO:
 
-1. Add ESPecoMon.ino
+1. Add QR code and url for Blynk project
 2. Add Smartphone screenshots
 3. Add Serial Monitor screenshot
 4. Few more notes etc
