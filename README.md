@@ -19,7 +19,7 @@ Pick up a plug and play ESP8266 with 3.2+ ADC:
 
 Select a 5A, 20A or [30A ACS712](https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html) current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rated modules if you are monitoring low current devices.
 
-Flash your ESP8266 with [ESPecoMon.ino](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMon.ino)
+Flash your ESP8266 with [ESPecoMon.ino](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMon.ino) but don't forget to enter your credentials (Blynk token, SSID and PWD) before flashing.
 
 Use the QR code below to load the project on to your Smartphone and away you go.
 ![Scan the QR code for ESPecuMon](https://github.com/pieman64/ESPecoMon/blob/master/QRforESPecoMon.png)
