@@ -8,6 +8,8 @@ Obtain the best available iOT app builder from Blynk for your Smartphone:
 Android https://play.google.com/store/apps/details?id=cc.blynk and 
 iOS https://itunes.apple.com/us/app/blynk-iot-for-arduino-rpi-particle-esp8266/id808760481?mt=8
 
+Install the Blynk libraries (MANUALLY) from https://github.com/blynkkk/blynk-library/releases
+
 Pick up a plug and play ESP8266 with 3.2+ ADC:
 
 Sparkfun's Blynk Board: https://www.sparkfun.com/products/13794 
