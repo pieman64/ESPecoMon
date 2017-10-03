@@ -1,13 +1,15 @@
 ﻿# ESPecoMon
-**Very** Low Cost Energy Monitoring with Blynk, ESP8266 and ACS712.
+**Very** Low Cost Energy Monitoring using **Blynk**, **ESP8266** and **ACS712** with local **OTA** update facility. **Under $5** if you shop around for components.
 
-I will try to keep this brief but remember **WORKING WITH MAINS ELECTRICTY CAN BE VERY DANGEROUS**.
-
+I will try to keep this brief but remember **WORKING WITH MAINS ELECTRICITY CAN BE VERY DANGEROUS**. Hopefully the screenshot below explains what the Smartphone app does but if you have any questions take a look at the references on [Blynk's Community](https://community.blynk.cc/t/smart-energy-meters-what-are-they/16173/) site. 
+![40W Soldering iron plugged in between left and right screenshots](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMonOFF2ON.png)
 Obtain the **best** available iOT app builder from **Blynk** for your Smartphone:
 
-[Android](https://play.google.com/store/apps/details?id=cc.blynk) and [iOS](https://itunes.apple.com/us/app/blynk-iot-for-arduino-rpi-particle-esp8266/id808760481?mt=8)
+[Android](https://play.google.com/store/apps/details?id=cc.blynk) and [iOS](https://itunes.apple.com/us/app/blynk-iot-for-arduino-rpi-particle-esp8266/id808760481?mt=8). 
 
-Manually install the [Blynk libraries](https://github.com/blynkkk/blynk-library/releases) for the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
+Top up the 2000 **FREE** energy units to 3000 (costs less than a dollar) as this project requires 2600 units.
+
+Manually install the [Blynk libraries](https://github.com/blynkkk/blynk-library/releases) for the [Arduino IDE](https://www.arduino.cc/en/Main/Software) 
 
 Pick up a plug and play ESP8266 with 3.2+ ADC:
 
@@ -15,14 +17,15 @@ Pick up a plug and play ESP8266 with 3.2+ ADC:
 [WeMos](https://www.aliexpress.com/item/WEMOS-D1-mini-Pro-16M-bytes-external-antenna-connector-ESP8266-WIFI-Internet-of-Things-development-board/32724692514.html)
 [NodeMCU](https://www.aliexpress.com/item/1pcs-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-CP2102-with-pcb/32720917001.html)
 
-Lastly, select a 5A, 20A or [30A ACS712](https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html) current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rates modules if you are monitoring low current devices.
+Lastly, select a 5A, 20A or [30A ACS712](https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html) current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rated modules if you are monitoring low current devices.
 
 Flash your ESP8266 with [ESPecoMon.ino](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMon.ino)
 
-Use the QR code / url below to load the project on to your Smartphone and away you go.
+Use the QR code below to load the project on to your Smartphone and away you go.
+![Scan the QR code for ESPecuMon](https://github.com/pieman64/ESPecoMon/blob/master/QRforESPecoMon.png)
+
+Arduino IDE Screenshot of Serial Monitor
 ![ESPecoMon Serial Monitor output](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMonSerialMonitor.PNG)
 
-TODO:
-
-1. Add QR code and url for Blynk project
-2. Add Smartphone screenshots
+____________________________________________________________________________
+The answer, if you were asking, is [StackEdit](https://stackedit.io/)
