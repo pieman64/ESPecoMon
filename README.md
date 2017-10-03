@@ -17,7 +17,7 @@ Pick up a plug and play ESP8266 with 3.2+ ADC:
 [WeMos](https://www.aliexpress.com/item/WEMOS-D1-mini-Pro-16M-bytes-external-antenna-connector-ESP8266-WIFI-Internet-of-Things-development-board/32724692514.html)
 [NodeMCU](https://www.aliexpress.com/item/1pcs-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-CP2102-with-pcb/32720917001.html)
 
-Lastly, select a 5A, 20A or [30A ACS712](https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html) current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rated modules if you are monitoring low current devices.
+Select a 5A, 20A or [30A ACS712](https://www.aliexpress.com/item/30A-range-Current-Sensor-Module-ACS712-Module/1893200600.html) current sensor. We use the 30A module but we suspect you will get better accuracy from the lower rated modules if you are monitoring low current devices.
 
 Flash your ESP8266 with [ESPecoMon.ino](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMon.ino)
 
