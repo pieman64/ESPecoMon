@@ -11,7 +11,7 @@ Top up the 2000 **FREE** energy units to 3000 (costs less than a dollar) as this
 
 Manually install the [Blynk libraries](https://github.com/blynkkk/blynk-library/releases) for the [Arduino IDE](https://www.arduino.cc/en/Main/Software) 
 
-Pick up a plug and play ESP8266 with 3.2+ ADC:
+Pick up a plug and play ESP8266 with 3.2V+ ADC:
 
 [Sparkfun's Blynk Board](https://www.sparkfun.com/products/13794) 
 [WeMos](https://www.aliexpress.com/item/WEMOS-D1-mini-Pro-16M-bytes-external-antenna-connector-ESP8266-WIFI-Internet-of-Things-development-board/32724692514.html)
