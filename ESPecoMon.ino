@@ -1,7 +1,11 @@
 /* ESPecoMon.ino very low cost energy monitor using ACS712
- * WeMos connections VCC to 5V, GND to GND and OUT to AO
- * WeMos 5V is approx 4.8V and ACS712 requires at least 4.5V so don't use WeMos 3.3V
- * WeMos and NODEMCU have a 3.2V ADC
+ * References to WeMos should also apply to Sparkfun Blynk board and nodeMCU
+ * WeMos connections VCC to 5V, GND to GND and OUT to A0
+ * WeMos 5V pin is approx 4.8V and ACS712 requires at least 4.5V so don't use WeMos 3.3V to power the ACS712
+ * WeMos only has a 3.2V ADC so you have 2 options:
+ * 1. Only use 60% of the current rating of the ACS712
+ * or
+ * 2. Add a 180K Ohm resistor between ACS712 data out and Analogue port A0
  */
  
 //#define BLYNK_DEBUG
@@ -130,7 +134,7 @@ void setup() {
   WiFi.mode(WIFI_STA);
   #ifdef CLOUD
     Blynk.begin(auth, ssid, pass);
-  #else if 
+  #else
     Blynk.begin(auth, ssid, pass, server);
   #endif
   while (Blynk.connect() == false) {}
