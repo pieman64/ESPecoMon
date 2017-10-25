@@ -1,5 +1,5 @@
-﻿# ESPecoMon ©
-**Very** Low Cost Energy Monitoring using **Blynk**, **ESP8266** and **ACS712** with local **OTA** update facility. **Under $5** if you shop around for components.
+﻿# ESPecoMon©
+**Very** Low Cost Energy Monitoring using **Blynk**, **ESP8266** and the **ACS712** from **Allegro MicroSystems** with local **OTA** update facility. **Under $5** if you shop around for components.
 
 Remember **WORKING WITH MAINS ELECTRICITY CAN BE VERY DANGEROUS**. Hopefully the screenshot below explains what the Smartphone app does but if you have any questions take a look at the references on [Blynk's Community](https://community.blynk.cc/t/smart-energy-meters-what-are-they/16173/) site. 
 ![40W Soldering iron plugged in between left and right screenshots](https://github.com/pieman64/ESPecoMon/blob/master/ESPecoMonOFF2ON.png)
@@ -33,6 +33,6 @@ TODO:
 1. Add Webhook widget for interfacing with well known API's
 2. Log energy usage over time and add SuperGraph widget
 
-If you want a more accurate Energy Monitoring system contact us at the [PeaceFairApp site](https://peacefairapp.com/)
+If you want a **more accurate Energy Monitoring system** take a look at [ESPproMon©](https://github.com/pieman64/ESPproMon) or contact us at the [PeaceFairApp site](https://peacefairapp.com/)
 ____________________________________________________________________________
-The answer, if you were asking, is [StackEdit](https://stackedit.io/)
+Inital README.md created with [StackEdit](https://stackedit.io/)
