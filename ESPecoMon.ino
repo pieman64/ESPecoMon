@@ -54,7 +54,7 @@ void getACS712() {  // for AC
   Blynk.virtualWrite(V0, String(AmpsRMS, 3));
   Blynk.virtualWrite(V1, String(WH, 3));
   Blynk.virtualWrite(V3, int(WH + 0.5));  // gauge
-  energyCostpermonth = 24.0 * 30.0 * (pF / 100.0) * (WH / 1000.0) * (energyTariff / 1000.0);
+  energyCostpermonth = 24.0 * 30.0 * (WH / 1000.0) * (energyTariff / 10000.0);
   Serial.print("  Approx cost per month: £"); 
   Serial.println(String(energyCostpermonth, 2));
   Blynk.virtualWrite(V6, String(energyCostpermonth, 2));
@@ -123,7 +123,7 @@ BLYNK_WRITE(V7) {  // PF slider 60 to 100 i.e 0.60 to 1.00, default 95
     pF = param.asInt();
 }
 
-BLYNK_WRITE(V8) {  // Energy tariff slider 1000 to 2000, default 1437 (UK £14.37 / KWH)
+BLYNK_WRITE(V8) {  // Energy tariff slider 1000 to 2000, default 1437 (UK £ 0.1437 / KWH)
     energyTariff = param.asInt();
 }
 
